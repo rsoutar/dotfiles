@@ -55,7 +55,7 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/dotfiles/vim/plugged')
 Plug 'tpope/vim-sensible'
 Plug 'junegunn/vim-easy-align'
 " Any valid git URL is allowed
