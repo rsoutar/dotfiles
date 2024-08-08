@@ -1,0 +1,36 @@
+import = ["~/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+#opacity = 1
+
+[window.dimensions]
+columns = 300
+lines = 60
+
+[window.padding]
+x = 25
+y = 20
+
+[cursor.style]
+blinking = "Always"
+shape = "Block"
+
+[font]
+size = 16.0
+
+[font.bold]
+family = "Cousine Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Cousine Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "Cousine Nerd Font"
+style = "Regular"
