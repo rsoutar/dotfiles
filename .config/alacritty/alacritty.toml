@@ -34,3 +34,8 @@ style = "Italic"
 [font.normal]
 family = "Cousine Nerd Font"
 style = "Regular"
+
+[[keyboard.bindings]]
+key = "N"
+mods = "Command"
+action = "CreateNewWindow"

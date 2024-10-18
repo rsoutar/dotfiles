@@ -80,3 +80,6 @@ alias kl="kubectl logs -f"
 alias ke="kubectl exec -it"
 alias kcns='kubectl config set-context --current --namespace'
 alias podname=''
+
+# MTR
+export PATH="/usr/local/Cellar/mtr/0.95/sbin:$PATH"
