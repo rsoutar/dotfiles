@@ -112,3 +112,4 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 export PATH="/Users/rsoutar/.local/bin:$PATH"
+. $(brew --prefix asdf)/libexec/asdf.sh
